@@ -1,16 +1,15 @@
-# fnol-agent.
 # Synapx FNOL Processing Agent
 
-Autonomous agent for extracting fields from First Notice of Loss (FNOL) documents, identifying missing fields, and routing claims to appropriate workflows.[file:12]
+Autonomous agent that extracts key fields from FNOL documents, identifies missing fields, and routes claims.[file:12]
 
 ## Features
-- Extracts 16 key fields from ACORD-style insurance forms.[file:11][file:12]
-- Identifies all missing mandatory fields.
-- Applies 4 routing rules with clear reasoning.[file:12]
-- Outputs structured JSON as specified.
+- Extracts policy info, incident details, parties, assets, claim type from ACORD forms.[file:11][file:12]
+- Detects missing mandatory fields.
+- Routes using 4 rules (damage threshold, missing fields, fraud keywords, injury claims).[file:12]
+- JSON output format.
 
 ## Installation
 ```bash
-git clone https://github.com/[your-username]/fnol-agent.git
+git clone https://github.com/Thik102/fnol-agent.git
 cd fnol-agent
-pip install -r requirements.txt  # No external dependencies needed
+# No dependencies - pure Python
