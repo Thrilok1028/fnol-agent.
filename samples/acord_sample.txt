@@ -1,0 +1,11 @@
+POLICY NUMBER: ABC123456
+NAME OF INSURED (First, Middle, Last): John Doe
+DATE OF LOSS AND TIME: 02/01/2026 3:45 PM
+LOCATION OF LOSS: 123 Main St, Bengaluru, Karnataka
+STREET: Main Street
+CITY, STATE, ZIP: Bengaluru, Karnataka
+DESCRIPTION OF ACCIDENT: Rear-end collision at intersection. No injuries reported.
+NAME OF CONTACT (First, Middle, Last): John Doe
+PRIMARY E-MAIL ADDRESS: john.doe@email.com
+V.I.N.: 1HGCM82633A123456
+ESTIMATE AMOUNT: 15000
